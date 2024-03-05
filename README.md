@@ -24,5 +24,5 @@ Also any older version of kurento, socket, express, minimst will not work, so th
   - npm init -y
   - npm install -S express@ socket.io@ kurento-client@ minimist@
   - docker run -d -p 8888:8888 kurento/kurento-media-server
-- run:nodeserver.js (in cmd)
+- run nodeserver.js (in cmd)
 - Open in chrome: http://localhost:3000/ in as many windows as you want, since there is no limitation on the number of users
